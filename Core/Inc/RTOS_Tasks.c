@@ -244,19 +244,23 @@ void RTOS_OLED_Task(void *pvParameters)
     {
       OLED_ShowString(0,0,"Welcome BASEDATA!",OLED_6X8);
       OLED_Update();
-            OLED_ShowString(0,9,"Welcome BASEDATA!",OLED_6X8);
+            OLED_ShowString(0,0,"Welcome BASEDATA!",OLED_6X8);
       OLED_Update();
-            OLED_ShowString(0,9+9,"Welcome BASEDATA!",OLED_6X8);
+            OLED_ShowString(0,0,"Welcome BASEDATA!",OLED_6X8);
       OLED_Update();
-            OLED_ShowString(0,9+9,"Welcome BASEDATA!",OLED_6X8);
-      OLED_Update();
-            OLED_ShowString(0,9+9,"Welcome BASEDATA!",OLED_6X8);
-      OLED_Update();
-            OLED_ShowString(0,9+9,"Welcome BASEDATA!",OLED_6X8);
-      OLED_Update();
-            OLED_ShowString(0,9+9,"Welcome BASEDATA!",OLED_6X8);
+            OLED_ShowString(0,0,"Welcome BASEDATA!",OLED_6X8);
       OLED_Update();
 
+            OLED_ShowString(0,0,"Welcome BASEDATA!",OLED_6X8);
+      OLED_Update();
+            OLED_ShowString(0,0,"Welcome BASEDATA!",OLED_6X8);
+      OLED_Update();
+            OLED_ShowString(0,0,"Welcome BASEDATA!",OLED_6X8);
+      OLED_Update();
+            OLED_ShowString(0,0,"Welcome BASEDATA!",OLED_6X8);
+      OLED_Update();
+            OLED_ShowString(0,0,"Welcome BASEDATA!",OLED_6X8);
+      OLED_Update();
     }
 
     vTaskDelay(pdMS_TO_TICKS(10));
