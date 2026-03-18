@@ -205,6 +205,26 @@ void RTOS_LED_P13_Task(void *pvParameters)
     vTaskDelay(pdMS_TO_TICKS(500));
     HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
     vTaskDelay(pdMS_TO_TICKS(500));
+        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+    vTaskDelay(pdMS_TO_TICKS(500));
+    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
+    vTaskDelay(pdMS_TO_TICKS(500));
+        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+    vTaskDelay(pdMS_TO_TICKS(500));
+    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
+    vTaskDelay(pdMS_TO_TICKS(500));
+        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+    vTaskDelay(pdMS_TO_TICKS(500));
+    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
+    vTaskDelay(pdMS_TO_TICKS(500));
+        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+    vTaskDelay(pdMS_TO_TICKS(500));
+    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
+    vTaskDelay(pdMS_TO_TICKS(500));
+        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+    vTaskDelay(pdMS_TO_TICKS(500));
+    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
+    vTaskDelay(pdMS_TO_TICKS(500));
   }
 }
 //-------------------LED_PC13 ÈÎÎñ-------------------
